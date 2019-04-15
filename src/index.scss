@@ -1,3 +1,5 @@
+@import './styles/components/variables';
+
 body {
   margin: 0;
   padding: 0;
@@ -6,9 +8,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: $background-color;
+  font-family: 'Lato', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1, p, small {
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+}
+
+.btn-primary {
+  background-color: $btn-primary;
+  border: 0;
+}
+
+.btn-primary:hover {
+  background-color: #6009b8;
 }
