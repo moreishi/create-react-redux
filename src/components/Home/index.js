@@ -14,6 +14,9 @@ const Home = () => {
                     </FormGroup>
                 </Form>
             </div>
+            <div className="col-md-6 offset-md-3 mt-8">
+
+            </div>
         </div>
     );
 }

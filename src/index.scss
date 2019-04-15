@@ -17,7 +17,7 @@ code {
     monospace;
 }
 
-h1, p, small {
+h1,h2,h3,h4,h5,h6 p, small {
   color: #ffffff;
   font-family: 'Lato', sans-serif;
 }
@@ -33,4 +33,31 @@ h1 {
 
 .btn-primary:hover {
   background-color: #6009b8;
+}
+
+.media-body { color: #ffffff; }
+
+.primary-light {
+  color:#ffffff;
+
+  :hover {
+    color: #7017cb;
+  }
+}
+
+.bb-primary {
+  border-bottom: solid 1px #7017cb;
+}
+
+.badge-primary-light {
+  background-color: #7017cb;
+}
+
+.social-icons {
+  padding: 0;
+}
+
+.social-icons > li {
+  display: inline-block;
+  padding-right:10px;
 }
