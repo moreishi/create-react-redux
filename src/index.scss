@@ -61,3 +61,15 @@ h1 {
   display: inline-block;
   padding-right:10px;
 }
+
+.view-demo, .view-demo:hover {
+  color: #ffffff;
+}
+
+.badge {
+  transition: 0.3s;
+}
+
+.badge:hover {
+  font-size: 16px;
+}
