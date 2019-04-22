@@ -1,0 +1,1 @@
+export const MOBILE_REGISTER = 'MOBILE_REGISTER';
